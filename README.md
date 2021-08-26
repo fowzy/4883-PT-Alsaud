@@ -1,1 +1,3 @@
-# 4883-Programming_Techniques-ALSAUD
+# CMPS 4883 Programming Techniques
+@ author: Fowzy Alsaud
+
