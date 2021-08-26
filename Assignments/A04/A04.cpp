@@ -11,11 +11,11 @@ using namespace std;
 
 int main() {
     int B = 0, A = 0;
-    
     while (cin >> A >> B) {
-        
-        // your stuff here
-
+        // diff is a variable to count the difference of number of soldiers between Hashmat’s army and his opponent’s army
+        int diff= B-A;
+        // print out the result 
+        cout << diff << endl;
     }
     return 0;
 }
