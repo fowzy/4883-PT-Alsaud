@@ -7,7 +7,7 @@
 #### Files  :
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [A04.pdf](images/diagram.png)</a> | Problem PDF. |
-|   2   | [A04.cpp](/images/game.png)</a> | cpp File. |
-|   3   | [Banner](Banner)</a> | Banner Page. |
-|   4   | [README.md](README.md)</a> | ReadMe file. |
+|   1   | [A04.pdf](images/diagram.png)</a> | The problem |
+|   2   | [A04.cpp](/images/game.png)</a> | CPP File |
+|   3   | [Banner](Banner)</a> | Banner Page |
+|   4   | [README.md](README.md)</a> | ReadMe file |
