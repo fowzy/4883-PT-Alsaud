@@ -5,7 +5,6 @@
 #### UDebug  :   <a href="https://www.udebug.com/UVa/10055">UDebug</a>
 #### Description : ...
 #### Files
-
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [A04.pdf](images/diagram.png)</a> | Problem PDF. |
