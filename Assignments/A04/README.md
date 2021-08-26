@@ -10,4 +10,4 @@
 |   1   | [A04.pdf](A04.pdf)</a> | PDF Problem |
 |   2   | [A04.cpp](A04.cpp)</a> | CPP File |
 |   3   | [Banner](Banner)</a> | Banner Page |
-|   4   | [README.md](README.md)</a> | ReadMe file |
+|   4   | [README.md](README.md)</a> | ReadMe File |
