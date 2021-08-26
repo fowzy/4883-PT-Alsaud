@@ -1,5 +1,5 @@
 # Fowzy Alsaud
-### Repo: CMPS 4883 Programming Techniques
+### Repo: 4883 Programming Techniques
 ### email:  fwzsas@gmail.com
 ### website: h3x0r.io
 ### Image:
