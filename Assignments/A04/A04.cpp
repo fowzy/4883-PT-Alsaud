@@ -13,31 +13,33 @@ using namespace std;
 
 int main()
 {
-    // fstream inFile("input");
-    int B = 0, A = 0;
-    while (cin >> A >> B)
+    fstream inFile("input");
+    // we have to make sure both A and B are long long so they could hold big values/numbers otherwise you will face issue seeing the result
+    long long B = 0, A = 0;
+    // while (cin >> A >> B)
+    while (inFile >> A >> B)
     {
         // diff is a variable to count the difference of number of soldiers between Hashmat’s army and his opponent’s army
         // Method #1 : using abs()
-        // long long diff = B - A;
+        long long diff = B - A;
         // print out the result
-        // cout << abs(diff) << endl;
-        // cout << abs(diff) << endl;
+        cout << abs(diff) << endl;
         //
         //
         // Method #2 : using if statement
-        long long C = B - A;
-        if (A > B)
-        {
-            C = A - B;
-            cout << C << endl;
-        }
-        else
-        {
-            C = B - A;
-            cout << C << endl;
-        }
+        // unsigned int C = B - A;
+        // if (A > B)
+        // {
+        //     C = A - B;
+        //     cout << C << endl;
+        // }
+        // else
+        // {
+        //     C = B - A;
+        //     cout << C << endl;
+        // }
     }
-    // inFile.close();
+
+    inFile.close();
     return 0;
 }

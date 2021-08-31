@@ -1,2 +1,2 @@
-ng diff = B - A;
-        long lo
+diff) << endl;
+        // cout << abs(
