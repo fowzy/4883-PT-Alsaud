@@ -3,7 +3,12 @@
 ### URL     :   <a href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=996">Online Judge</a>
 ### UDebug  :   <a href="https://www.udebug.com/UVa/10055">UDebug</a>
 ### Description    :
-    ...
+    simply this cpp file will count the difference of number of soldiers between Hashmat’s army and his opponent’s army. 
+    Make sure you enter the input in one line:
+    - 10 12
+    - 10 14
+    - 100 200
+
 ### Files  :
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
