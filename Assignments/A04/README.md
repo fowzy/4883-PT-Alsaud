@@ -23,8 +23,8 @@
 - This project was complied using C++ 17
 
 ### Sources:
-- <a href="https://www.cplusplus.com/reference/cstdlib/abs/"> cplusplus.com - abs</a>
+- <a href="https://www.cplusplus.com/reference/cstdlib/abs/"> cplusplus.com - abs (Absolute value)</a>
 
-- <a href="https://en.cppreference.com/w/cpp/language/types">https://en.cppreference.com/w/cpp/language/types - Data types</a>
+- <a href="https://en.cppreference.com/w/cpp/language/types">cppreference.com - Data types</a>
 
 (I used these sources to help me understand what a .....)
