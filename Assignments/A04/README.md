@@ -26,9 +26,5 @@
 - <a href="https://www.cplusplus.com/reference/cstdlib/abs/"> cplusplus.com - abs (Absolute value)</a>
 
 - <a href="https://en.cppreference.com/w/cpp/language/types">cppreference.com - Data types</a>
-
-<<<<<<< HEAD
-(I used these sources to help me understand what a .....)
 =======
 (I used these sources to help me understand what data types and the way we implment abs to see the absolute value in my result.)
->>>>>>> AUG3121 1139AM
