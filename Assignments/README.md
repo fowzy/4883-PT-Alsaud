@@ -6,4 +6,5 @@
 |   2   | <a href="../../../">A02</a>     | <a href="../../../">Code Repository</a>      |    🟢  |
 |   3   | <a href="A03">A03</a>     | <a href="A03">Banner Page</a>    |    🟢  |
 |   4   | <a href="A04">A04</a>    | <a href="A04">Register + Simple Problem</a>      | 🟢   |
+|   5   | <a href="A05">A05</a>    | <a href="A05">Traffic Lights</a>      | 🔴   |
 |   5   | <a href="A05">A05</a>    | <a href="A05">Loading...</a>      | 🔴   |
