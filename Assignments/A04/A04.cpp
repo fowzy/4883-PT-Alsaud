@@ -25,7 +25,6 @@ int main()
         // print out the result
         cout << abs(diff) << endl;
         //
-        //
         // Method #2 : using if statement
         // unsigned int C = B - A;
         // if (A > B)
