@@ -4,7 +4,9 @@
 ### URL     :   <a href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=97">Online Judge</a>
 ### UDebug  :   <a href="https://www.udebug.com/UVa/161">UDebug</a>
 ### Description    :
-    simply this cpp file will count the difference of number of soldiers between Hashmat’s army and his opponent’s army. 
+    Input: each number represent the cycle time that traffic may move in one direction.
+    Output: 
+    So we have to calculate the time that it take for all signals to show show green after at least one of them changes to orange. 
 
 
 ### Files  :
