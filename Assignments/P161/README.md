@@ -13,7 +13,8 @@
 |   1   | [A05.pdf](A05.pdf)</a> | PDF Problem |
 |   2   | [A05.cpp](A05.cpp)</a> | CPP File |
 |   3   | [Banner](Banner)</a> | Banner Page |
-|   4   | [README.md](README.md)</a> | ReadMe File |
+|   4   | [Input](input)</a> | Input file |
+|   5   | [README.md](README.md)</a> | ReadMe File |
 
 ### Instructions:
 - This project was complied using C++ 17
