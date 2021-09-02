@@ -5,8 +5,7 @@
 ### UDebug  :   <a href="https://www.udebug.com/UVa/161">UDebug</a>
 ### Description    :
     Input: each number represent the cycle time that traffic may move in one direction.
-    Output: 
-    So we have to calculate the time that it take for all signals to show show green after at least one of them changes to orange. 
+    Output: So we have to calculate the time that it take for all signals to show show green after at least one of them changes to orange. 
 
 
 ### Files  :
