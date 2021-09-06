@@ -2,3 +2,29 @@
 30
     25  35  0
 0   0   0
+
+the cycle time of a single traffic light
+19 
+20
+0
+30
+
+What is cycle time?
+cycle time is the time that traffic may move in one direction
+Note: that the last 5 seconds of a green light cycle is a orange.
+What is  going to be our output?
+So the out  put it will be 
+output it will be:
+    hours:minutes:seconds
+the time it takes for all the signals to show green again
+    after at least of them changes to orange.
+
+
+19-5
+14
+
+20 - 5
+15
+
+30 - 5
+25
