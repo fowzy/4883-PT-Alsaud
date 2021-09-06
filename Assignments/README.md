@@ -7,4 +7,7 @@
 |   3   | <a href="A03">A03</a>     | <a href="A03">Banner Page</a>    |    🟢  |
 |   4   | <a href="A04">A04</a>    | <a href="A04">Register + Simple Problem</a>      | 🟢   |
 |   5   | <a href="P161">A05</a>    | <a href="P161">Traffic Lights</a>      | 🔴   |
-|   5   | <a href="A05">A05</a>    | <a href="A05">Loading...</a>      | 🔴   |
+|   6   | <a href="A06">A06</a>    | <a href="A05">Jolly Jumpers</a>      | 🔴   |
+|   7   | <a href="A07">A07</a>    | <a href="A05">Place The Guards</a>      | 🔴   |
+|   8   | <a href="A08">A08</a>    | <a href="A05">Loading...</a>      | 🔴   |
+|   9   | <a href="A09">A09</a>    | <a href="A05">Loading...</a>      | 🔴   |
