@@ -20,18 +20,7 @@ int main()
     int size = 0;
     // Each input/number represents the cycle time of a single sign.
     double cycle_time;
-    // Red cycle time
-    int red = 25;
-    // Red cycle time
-    int green = 20;
-    // Orange cycle time
-    int orange = 5;
-    // Hours
-    int hours;
-    // Minutes
-    int minutes;
-    // Seconds
-    int seconds;
+
     // input will be spread over many lines.
     while (inFile >> data)
     {
