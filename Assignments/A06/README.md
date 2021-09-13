@@ -1,7 +1,7 @@
 
 ## 10038 - Jolly Jumpers
 ### Fowzy Alsaud
-### URL     :   <a href="https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=979">Online Judge</a>
+### URL     :   <a href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979">Online Judge</a>
 ### UDebug  :   <a href="https://www.udebug.com/UVa/10038">UDebug</a>
 ### Description    :
     a sequence of **integers** (n>0). Jolly jumper if the absolute values of the difference btwn successive elements take on all the values 1 through n-1. For intance,
