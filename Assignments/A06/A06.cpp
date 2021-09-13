@@ -9,6 +9,7 @@ Class       :   Prgm. Tech. with Dr. Griffin.
 #include <vector>  // for vector
 #include <sstream> // for istringstream
 #include <cmath>   // for abs
+#include <fstream> // reading inFile
 
 using namespace std;
 // Function Prototype:
@@ -16,26 +17,42 @@ bool isJolly(vector<int>, int);
 
 int main()
 {
+    fstream inFile("input");
     int n;             // we storing our input here
-    string line;       // string line to read line by line
     vector<int> myVec; // created a vector to store data
-    while (getline(cin, line))
+
+    string line; // string line to read line by line
+    while (getline(inFile, line))
     {
-            istringstream iss(line);
+        istringstream stream(line); // creating an object class of istringstream
+        while (stream >> n)
+        {
+            // cout << n << " ";
             myVec.push_back(n);
-            isJolly(myVec, myVec.size()) ? cout << "Jolly\n" : cout << "Not Jolly\n";
+        }
     }
+    
+    // isJolly(myVec, myVec.size()) ? cout << "Jolly\n" : cout << "Not Jolly\n";
+    // cout << myVec.size() << endl;
+    // for(int i: myVec){
+    //     cout << i << " ";
+    // }
+
+    inFile.close();
     return 0;
 }
-/* Function to check if the line is JOLLY or NOT */
+
 bool isJolly(vector<int> v, int n)
 {
+
     vector<bool> diffSet(n, false);
+
     // Traverse arrays
     for (int i = 0; i < n - 1; i++)
     {
         // Find absolute difference between current two
         int d = abs(v[i] - v[i + 1]);
+
         // If difference is out of range or repeated,
         // return false.
         if (d == 0 || d > n - 1 || diffSet[d] == true)
@@ -44,5 +61,6 @@ bool isJolly(vector<int> v, int n)
         // Set presence of d in set.
         diffSet[d] = true;
     }
+
     return true;
 }
