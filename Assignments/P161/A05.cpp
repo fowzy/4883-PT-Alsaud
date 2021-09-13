@@ -6,49 +6,57 @@ Date        :   Sept 2nd, 2021
 Class       :   Prgm. Tech. with Dr. Griffin.
 */
 #include <iostream>
-#include <fstream>
-#include <cstring>
 
 using namespace std;
 
 int main()
 {
-    fstream inFile("input");
-    // data repersent the cycle time of the traffic lights.
-    // char data[100];
-    int data;
-    int size = 0;
-    // Each input/number represents the cycle time of a single sign.
-    double cycle_time;
-
-    // input will be spread over many lines.
-    while (inFile >> data)
+    // var. data to store a temporary input from the use
+    int data, green, timeLine;
+    int cycleTime = 0;
+    int seconds = 0;
+    int orange = 5;
+    // store the lights into an array and it should be fixed size accordin to the documation 2 traffic siganls up to 100 signals.
+    int traffic_light[100];
+    // I use count var. to count how many data that my user has entered
+    int count = 0;
+    // taking data from the user
+    while (1) // using infinite loop and if statement to break if need it
     {
-        // each number of the input represent the cycle time that traffic may move in one direction
-        cycle_time = data - 5;
-        // green - 5 (because the last 5 seconds of green cycle is accually orange)
-        cout << cycle_time << endl;
-        // cycle time will not be less than 10 seconds, nor more than 90 seconds
-        // if (!cycle_time < 10 && cycle_time >= 90){
-
-        // }
-        // else {
-        //     cycle_time =
-        // }
-        // line no longer than 100 characters.
-        // size = strlen(data);
-        // if (size >= 100)
-        // {
-        //     cout << "max is 100 char per line." << endl;
-        // }
-        // else
-        // {
-        //     cout << data << endl;
-        // }
-        
-        // Output is the time that it takes for all signals to show shwo green after at least one of them changes to orange. 
-        cout << cycle_time << endl;
+        // taking the data from the user
+        cin >> data;
+        // if statement check user' data and if it a ZERO then terminate
+        if (data != 0)
+        {
+            // data is not zero then store into the array
+            traffic_light[count] = data;
+        }
+        // means the user has entered a zero so break it
+        else
+        {
+            break;
+        }
+        // finish the loop and add one :D
+        count++;
     }
-    inFile.close();
+
+    // for loop to check and read the element in an array
+    for (int i = 0; i < count; i++)
+    { // for loop 18000 times which is 18000 seconds == 5 hours
+        cycleTime = traffic_light[i];
+        green = cycleTime - orange; // 14
+        for (int x = 0; x < 18000; x++)
+        {
+            for (int x = 0; x < 180000; x++)
+            {
+                if (seconds == green) // 0 == 14
+                {
+                    cout << seconds << endl;
+                }
+                seconds++;
+            }
+            green++;
+        }
+    }
     return 0;
 }
