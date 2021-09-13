@@ -7,7 +7,22 @@
     Input: each number represent the cycle time that traffic may move in one direction.
     Output: So we have to calculate the time that it take for all signals to show show green after at least one of them changes to orange. 
 
-
+### Pseudocode  :
+    -   Run program. 
+    -   Creating an array 
+    -   Orange = 5
+    -   Red = Data
+    -   Green = Data - 5 
+    -   Start a loop
+        -   take the first input
+            - if the input == 0 then terminate
+            - else
+              - then add the data to my array
+                - Start another loop
+                  - then start my calculation
+                    - array[0] - 5 = green
+                    - array[1] - 5 = green
+                    - array[2] - 5 = green
 ### Files  :
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
