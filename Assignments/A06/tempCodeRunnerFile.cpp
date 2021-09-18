@@ -1,1 +1,0 @@
-    fstream inFile("input2");

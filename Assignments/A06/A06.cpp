@@ -14,57 +14,63 @@ Class       :   Prgm. Tech. with Dr. Griffin.
 using namespace std;
 int main()
 {
-    int n;       // we storing our input here
     string line; // string line to read line by line
-    fstream inFile("input");
+    fstream inFile("input2");
     while (getline(cin, line))
     {
         vector<int> myVec;          // created a vector to store data
-        istringstream stream(line); // creating an object class of istringstream
-        bool jolly = true;
-        vector<int> result; // result which is an array can hold 3000 result
-
-        while (stream >> n)
+        istringstream stream(line); // creating an object class of istringstream to conver our string "line" into an int
+        vector<int> result;         // result which is a vector can hold the differences between an element and other
+        int x;                      // var to store the data into an integer
+        bool isJolly = true;
+        // WHILE LOOP TO PUSH DATA INTO THE ARRAY
+        while (stream >> x)
         {
-            myVec.push_back(n);
+            myVec.push_back(x);
         }
-
-        for (int i = 1; i < myVec.size(); ++i) // reading and start comparing between items.
-        {
-            result.push_back(abs(myVec[i] - myVec[i - 1]));
-        }
-        // for(int i=0;i< myVec.size();i++){
-        //     cout << myVec[i] << " ";
-        // }
-        // cout << endl;
-        // if the size of the vector is 1 means it has only two elements that means there is nothing to check
-        if (result.size() == 1)
+        // n is the size of the vector
+        // FOR LOOP WILL LOOP N TIMES WHICH IS GOING TO BE OUR FIRST ELEMENT IN MY ARRAY = ARRAY[0]
+        int n = myVec[0];
+        if (n == 1)
         {
             cout << "Jolly\n";
         }
         else
         {
-            for (int i = 1; i < result.size(); i++)
+            vector<int> present(n);
+            // push back the result
+            for (int j = 1; j < n; j++)
             {
-                if (result[i] > result[i - 1])
+                result.push_back(abs(myVec[j + 1] - myVec[j]));
+            }
+            for (int i = 0; i < result.size(); i++)
+            {
+                //
+                int curr_result = result[i];
+                if (present[curr_result] == 0)
                 {
-                    jolly = false;
+                    present[curr_result] = 1;
                 }
-
-                if (!jolly) // If notJolly == false so it's Not Jolly
+            }
+            for (int i = 1; i < present.size(); i++)
+            {
+                //
+                if (present[i] == 0)
                 {
-                    cout << "Not Jolly\n";
+                    isJolly = false;
                     break;
                 }
             }
-
-            if (jolly) // if NOT false then is TRUE means is JOLLY
+            if (!isJolly) // IS NOT TRUE
+            {
+                cout << "Not jolly\n";
+            }
+            if (isJolly) // IS TRUE
             {
                 cout << "Jolly\n";
             }
         }
     }
     inFile.close();
-
     return 0;
 }
