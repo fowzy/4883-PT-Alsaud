@@ -17,7 +17,7 @@ int main()
     int n;       // we storing our input here
     string line; // string line to read line by line
     fstream inFile("input");
-    while (getline(cin, line))
+    while (getline(inFile, line))
     {
         vector<int> myVec;          // created a vector to store data
         istringstream stream(line); // creating an object class of istringstream
@@ -33,10 +33,7 @@ int main()
         {
             result.push_back(abs(myVec[i] - myVec[i - 1]));
         }
-        // for(int i=0;i< myVec.size();i++){
-        //     cout << myVec[i] << " ";
-        // }
-        // cout << endl;
+
         // if the size of the vector is 1 means it has only two elements that means there is nothing to check
         if (result.size() == 1)
         {
@@ -64,7 +61,6 @@ int main()
             }
         }
     }
-    inFile.close();
 
     return 0;
 }
