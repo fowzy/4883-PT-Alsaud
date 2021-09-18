@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     string line; // string line to read line by line
-    fstream inFile("input2");
+    fstream inFile("input");
     while (getline(cin, line))
     {
         vector<int> myVec;          // created a vector to store data
