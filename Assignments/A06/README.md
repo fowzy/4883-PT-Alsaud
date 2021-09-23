@@ -7,6 +7,7 @@
     a sequence of **integers** (n>0). Jolly jumper if the absolute values of the difference btwn successive elements take on all the values 1 through n-1. For intance,
     1   4   2   3
     ... (READ THE PDF)
+    Solved this in two different way by using vectors which is not efficinet solution and it's slow as well, so I did and made a better solution by using set and arrays.
 
 
 ### Files  :
