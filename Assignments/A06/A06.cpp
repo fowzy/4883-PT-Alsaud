@@ -6,71 +6,63 @@ Date        :   Sept 13th, 2021
 Class       :   Prgm. Tech. with Dr. Griffin.
 */
 #include <iostream>
-#include <vector>  // for vector
+#include <set>     // use set
 #include <sstream> // for istringstream
 #include <cmath>   // for abs
-#include <fstream>
-
+#include <fstream> // in case user want to read input file
 using namespace std;
 int main()
 {
-    string line; // string line to read line by line
-    fstream inFile("input");
-    while (getline(cin, line))
+    string line;                  // string line to read line by line
+    fstream inFile("input");      // reading an input file
+    // in case user want to read a file please switch the line below"cin" to "inFile"
+    while (getline(cin, line)) // while loop and start reading line by line
     {
-        vector<int> myVec;          // created a vector to store data
+        int intArray[3000];         // created a vector to store data
         istringstream stream(line); // creating an object class of istringstream to conver our string "line" into an int
-        vector<int> result;         // result which is a vector can hold the differences between an element and other
-        int x;                      // var to store the data into an integer
-        bool isJolly = true;
+        int r = 0;                  // r to get count how many items is exactly in the array and make it easier to read
         // WHILE LOOP TO PUSH DATA INTO THE ARRAY
+        int x; // var to store the data into an integer
         while (stream >> x)
         {
-            myVec.push_back(x);
+            intArray[r] = x; // store the element into the array
+            r++;             // start counting how many elements
         }
-        // n is the size of the vector
-        // FOR LOOP WILL LOOP N TIMES WHICH IS GOING TO BE OUR FIRST ELEMENT IN MY ARRAY = ARRAY[0]
-        int n = myVec[0];
-        if (n == 1)
+        int n = intArray[0]; // this is n which is how many item in each line
+        if (n == 1)          // if n == 1 means is Jolly and we don't have to do anything
         {
             cout << "Jolly\n";
         }
         else
         {
-            vector<int> present(n);
-            // push back the result
+            set<int> setOfDifferent; // creating a set to store the different between each number and number
             for (int j = 1; j < n; j++)
             {
-                result.push_back(abs(myVec[j + 1] - myVec[j]));
+                setOfDifferent.insert(abs(intArray[j + 1] - intArray[j])); // calculating the different and getting the absolute value.
             }
-            for (int i = 0; i < result.size(); i++)
-            {
-                //
-                int curr_result = result[i];
-                if (present[curr_result] == 0)
+            bool isJolly; // creating a boolean to  see if the line is Jolly or not
+            for (int u = 1; u <= n - 1; u++)
+            {                                                       // this loop will help me read into the set and see if the following elements exist in the set which 1 through n-1
+                if (setOfDifferent.find(u) != setOfDifferent.end()) // using find to find u if yes continue
                 {
-                    present[curr_result] = 1;
+                    // switch isJolly to true
+                    isJolly = true;
+                    continue; // then continue till you find the last element
                 }
-            }
-            for (int i = 1; i < present.size(); i++)
-            {
-                //
-                if (present[i] == 0)
+                else
                 {
-                    isJolly = false;
+                    // if the element is not there switch back the boolean to false to prevent printing the wrong data
+                    isJolly = false;       //
+                    cout << "Not jolly\n"; // print Not Jolly then break it
                     break;
                 }
             }
-            if (!isJolly) // IS NOT TRUE
-            {
-                cout << "Not jolly\n";
-            }
-            if (isJolly) // IS TRUE
-            {
+            if (isJolly == true)
+            { // if the loop ends and didn't break and the boolean still true then print out Is Jolly.
                 cout << "Jolly\n";
             }
         }
     }
-    inFile.close();
+    inFile.close(); // close the file
     return 0;
 }
