@@ -11,6 +11,6 @@
 |   7   | <a href="A07">A07</a>    | Place The Guards      | 🔴   |
 |   8   | <a href="A08">A08</a>    | Counting Distinct Items String Processing      | 🔴   |
 |   9   | <a href="A09">A09</a>    | Recursion      | 🔴   |
-|   10   | <a href="#">#</a>    | <a href="#">Loading...</a>      | 🔴   |
-|   11   | <a href="#">#</a>    | <a href="#">Loading...</a>      | 🔴   |
-|   12   | <a href="#">#</a>    | <a href="#">Loading...</a>      | 🔴   |
+|   10   | <a href="#">#</a>    | Loading...      | 🔴   |
+|   11   | <a href="#">#</a>    | Loading...      | 🔴   |
+|   12   | <a href="#">#</a>    | Loading...      | 🔴   |
