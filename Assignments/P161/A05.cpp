@@ -18,7 +18,7 @@ int main()
             lights.push_back(data);
         bool allGreen = false; // to check if all lights are green
         int seconds = 0;       // count the seconds
-        for (seconds = (*min_element(lights.begin(), lights.end()))*2; seconds <= 18000; seconds++)
+        for (seconds = (*min_element(lights.begin(), lights.end()))*2; seconds <= 18000; seconds++) // we set our starting point(seconds) not from zero but from the smallest number in vector times* 2 
         {
             int countTrue = 0; // I put the count true in the loop to make sure that we reset the counter in each seconds
             for (int i = 0; i < lights.size(); i++)
