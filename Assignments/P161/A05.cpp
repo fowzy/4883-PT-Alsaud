@@ -5,7 +5,7 @@ Assignment  :   A05
 Date        :   Sept 30th, 2021
 Class       :   Prgm. Tech. with Dr. Griffin.
 */
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> // used for min_element to find the smallest element in the vector
 #include <vector> // to store the lights
 using namespace std;
 int main()
@@ -33,8 +33,8 @@ int main()
             }
         }
         if (allGreen) // if this statement is true then print out the time
-            printf("%02d:%02d:%02d\n", seconds / 3600, seconds % 3600 / 60, seconds % 60);
-        if (seconds > 18000) // if the time is more than 5 hours print out this
+            printf("%02d:%02d:%02d\n", seconds / 3600, seconds % 3600 / 60, seconds % 60); // print out the time 
+        else // if the time is more than 5 hours print out this
             cout << "Signals fail to synchronise in 5 hours" << endl;
     }
     return 0;
