@@ -12,20 +12,10 @@ int main()
 {
     while (true)
     {
-        int countZeros = 0;
-        int data = 0;       // int to save data
-        vector<int> lights; // using vectors to store the data
-        while (cin >> data) // push data to vector to store the lights time
-        {
-            if (data == 0)
-                countZeros++;
-                if(countZeros == 3)
-                    break;
-            else
-                lights.push_back(data);
-        }
-        if (countZeros == 3)
-            break;
+        int data = 0;                    // int to save data
+        vector<int> lights;              // using vectors to store the data
+        while (cin >> data && data != 0) // push data to vector to store the lights time
+            lights.push_back(data);
         bool allGreen = false;                                                                        // to check if all lights are green
         int seconds = 0;                                                                              // count the seconds
         for (seconds = (*min_element(lights.begin(), lights.end())) * 2; seconds <= 18000; seconds++) // we set our starting point(seconds) not from zero but from the smallest number in vector times* 2
@@ -42,13 +32,10 @@ int main()
                 break;
             }
         }
-
         if (allGreen)                                                                      // if this statement is true then print out the time
             printf("%02d:%02d:%02d\n", seconds / 3600, seconds % 3600 / 60, seconds % 60); // print out the time
-        else if (seconds > 18000 && allGreen == false)
-        { // if the time is more than 5 hours print out this
+        else // if the time is more than 5 hours print out this
             cout << "Signals fail to synchronise in 5 hours" << endl;
-        }
     }
     return 0;
 }

@@ -10,7 +10,7 @@
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [10226.pdf](10226.pdf)</a> | PDF Problem |
-|   2   | [10226.cpp](10226.cpp)</a> | CPP File |
+|   2   | [main.cpp](main.cpp)</a> | CPP File |
 |   3   | [Banner](Banner)</a> | Banner Page |
 |   4   | [Input](input)</a> | Input file |
 |   5   | [README.md](README.md)</a> | ReadMe File |
@@ -19,7 +19,8 @@
 - This project was complied using C++ 17
 
 ### Sources:
-- <a href="#">#</a>
+- <a href="#">vector earse</a>
+- <a href="#">vector earse</a>
 
 
 (I used these sources to help me understand...)
