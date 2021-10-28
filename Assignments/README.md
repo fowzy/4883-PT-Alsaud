@@ -12,7 +12,7 @@
 |   8   | <a href="A08/10226">A08-P1</a>    | Hardwood Species      | 🟢   |
 |   9   | <a href="A09/10194">A08-P2</a>    | Counting Distinct Items String Processing      | 🔴   |
 |   10   | <a href="A09">A09</a>     | Recursion      | 🔴   |
-|   11   | <a href="A10/900">A10-P1</a>    | Brick Wall Patterns      | 🔴   |
+|   11   | <a href="A10/900">A10-P1</a>    | Brick Wall Patterns      | 🟢   |
 |   12   | <a href="A10/920">A10-P2</a>    | Sunny Mountains      | 🔴   |
 |   13   | <a href="A11">A11</a>    | Maximum Sum      | 🔴   |
 |   14   | <a href="A12">A12</a>    | Mice and Maze      | 🔴   |
