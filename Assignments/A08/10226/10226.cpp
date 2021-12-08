@@ -42,18 +42,10 @@ int main()
                 if (trees[i].treeName == trees[j].treeName)
                     trees[i].percentage += trees[j].percentage;
             }
-            for (int x = i + 1; x < trees.size(); x++)
-            {
-                int percentX = trees[x].percentage;
-                if (trees[i].treeName == trees[x].treeName & percentI <= percentX)
-                {
-                    trees.erase(trees.begin() + x);
-                    x--;
-                }
-            }
             cout << trees[i].treeName << " " << fixed << setprecision(4) << trees[i].percentage << endl;
         }
         cout << endl;
+        trees.clear();
     }
     return 0;
 }

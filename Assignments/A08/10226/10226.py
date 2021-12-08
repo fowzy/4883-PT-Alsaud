@@ -1,5 +1,6 @@
 import sys
 cases = int(input())
-trees =[]
-for line in sys.stdin:
-    if
+trees = []
+for i in range(cases):
+    while
+

@@ -11,9 +11,11 @@
 |   7   | <a href="A07">A07</a>    | Place The Guards      | 🔴   |  |
 |   8   | <a href="A08">A08</a>    | String Processing      | 🟢   | |
 |   10   | <a href="A09">A09</a>     | Recursion      | 🔴   |  |
-|   11   | <a href="A10">A10</a>    | The 900's?      | 🟢   |  |
+|   11   | <a href="A10">A10</a>    | The 900's?      | 🟢   | 1 out of 2 solved. |
 |   13   | <a href="A11">A11</a>    | Dynamic Programming      | 🔴   |  |
 |   14   | <a href="A12">A12</a>    | Mice and Maze      | 🔴   |  |
 |   15   | <a href="A14">A14</a>    | Easy Breezy      | 🟢   |  |
+|   17   | <a href="A15">A15</a>    | Egyption Multiplication      | 🟢   |  |
+|   18   | <a href="A16">A16</a>    | Assignment Organization      | 🟢   |  |
 |   16   | <a href="A17">A17</a>    | Tree Summing      | 🔴   |  |
-|   17   | <a href="276">Presentation</a>    | Egyption Multiplication      | 🟢   |  |
+|   18   | <a href="#">/</a>    | Assignment Organization      | 🟢   |  |
