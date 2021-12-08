@@ -2,7 +2,7 @@
 
 ### Fowzy Alsaud
 ### Files  :
-|   #   | File     | Description                      |
-| :---: | -------- | -------------------------------- |
-|   1   | [10194/](10194/)</a> | Problem #10194 |
-|   2   | [10226](10226/)</a> | Problem #10226 |
+|   #   | File     | Description                      | Status  | Details   |
+| :---: | -------- | -------------------------------- | ------- | --------- |
+|   1   | [10194/](10194/)</a> | Problem #10194 |   🔴  |   Not completed   |
+|   2   | [10226](10226/)</a> | Hardwood Species |  🟢  | Completed got right result but the time of onlinejudge taking forever.    |

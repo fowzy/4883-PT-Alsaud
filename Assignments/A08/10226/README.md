@@ -1,5 +1,6 @@
 
 ## 10226 - Hardwood Species
+### Status  :   Completed - online-judge won't accept because it takes forever.
 ### Fowzy Alsaud
 ### URL     :   <a href="https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1167">Online Judge</a>
 ### UDebug  :   <a href="https://www.udebug.com/UVa/10226">UDebug</a>

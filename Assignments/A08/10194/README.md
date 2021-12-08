@@ -1,5 +1,6 @@
 
 ## 10194 - Football (aka Soccer)
+### Status  :   Not completed
 ### Fowzy Alsaud
 ### URL     :   <a href="https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=1135">Online Judge</a>
 ### UDebug  :   <a href="https://www.udebug.com/UVa/10194">UDebug</a>
