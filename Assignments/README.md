@@ -16,6 +16,6 @@
 |   14   | <a href="A12">A12</a>    | Mice and Maze      | 🔴   |  |
 |   15   | <a href="A14">A14</a>    | Easy Breezy      | 🟢   |  5 solved   |
 |   17   | <a href="A15">A15</a>    | Egyption Multiplication      | 🟢   |  Completed   |
-|   18   | <a href="A16">A16</a>    | Experiment      | 🔴   |     |
+|   18   | <a href="A16">A16</a>    | Sorting Experiment      | 🟢   |  Completed   |
 |   16   | <a href="A17">A17</a>    | Tree Summing      | 🔴   |  |
 |   18   | <a href="#">A18</a>    | Assignment Organization      | 🟢   |  Completed   |
