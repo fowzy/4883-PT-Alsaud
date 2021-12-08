@@ -1,6 +1,6 @@
 import sys
 import time # Calculating the time
-sys.setrecursionlimit(20000)
+sys.setrecursionlimit(20000000)
 start = time.time() # start my timer
 # Counting sort in Python programming
 def countingSort(array):
@@ -36,6 +36,7 @@ fileName = str(input('Enter the file name: '))
 file1 = open(fileName)
 for x in file1.readlines():
     data.append(int(x))
+    
 countingSort(data)
 print("Sorted Array in Ascending Order:")
 print(f'Time in seconds : {time.time() - start}')
