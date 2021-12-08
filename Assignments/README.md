@@ -9,12 +9,13 @@
 |   5   | <a href="P161">A05</a>    | Traffic Lights      | 🟢   |  |
 |   6   | <a href="A06">A06</a>    | Jolly Jumpers     | 🟢   |  |
 |   7   | <a href="A07">A07</a>    | Place The Guards      | 🔴   |  |
-|   8   | <a href="A08/10226">A08-P1</a>    | Hardwood Species      | 🟢   |  |
+|   8   | <a href="A08/10226">A08-P1</a>    | Hardwood Species      | 🟢   | |
 |   9   | <a href="A09/10194">A08-P2</a>    | Counting Distinct Items String Processing      | 🔴   |  |
-|   10   | <a href="A09">A09</a>     | Recursion      | 🔴   |  |
+|   10   | <a href="A09">A09</a>     | Neverending Towers of Hanoi      | 🔴   |  |
 |   11   | <a href="A10/900">A10-P1</a>    | Brick Wall Patterns      | 🟢   |  |
 |   12   | <a href="A10/920">A10-P2</a>    | Sunny Mountains      | 🔴   |  |
 |   13   | <a href="A11">A11</a>    | Maximum Sum      | 🔴   |  |
 |   14   | <a href="A12">A12</a>    | Mice and Maze      | 🔴   |  |
-|   15   | <a href="Presentation">A13</a>    | Presentation      | 🔴   |  |
-|   16   | <a href="#">#</a>    | Loading...      | 🔴   |  |
+|   15   | <a href="A14">A14</a>    | Easy Breezy      | 🔴   |  |
+|   16   | <a href="A17">A17</a>    | Tree Summing      | 🔴   |  |
+|   17   | <a href="276">Presentation</a>    | Egyption Multiplication      | 🔴   |  |
