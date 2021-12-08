@@ -4,5 +4,5 @@
 ### Files  :
 |   #   | File     | Description                      | Status  | Details   |
 | :---: | -------- | -------------------------------- | ------- | --------- |
-|   1   | [920/](920/) | Sunny Mountains |   🔴  |   Not completed   |
-|   2   | [900](900/) | Hardwood Species |  🟢  | Completed |
+|   1   | [920](920) | Sunny Mountains |   🔴  |   Not completed   |
+|   2   | [900](900) | Hardwood Species |  🟢  | Completed |
